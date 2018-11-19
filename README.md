@@ -1,2 +1,0 @@
-# bookcentric
-Experimental project
