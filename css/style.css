@@ -94,6 +94,18 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
 
 -------------------------------------------------------------------*/
 
+/*========================
+    Custom
+==========================*/
+.color-primary {
+    color: #CCC357;
+}
+.color-secondary {
+    color: #F0564A;
+}
+.color-tertiary {
+    color: #61582F;
+}
 
 /* ==============================
    Common styles
@@ -444,7 +456,7 @@ hr.black{
     letter-spacing: 1px;
 }
 .font-alt{
-    font-family: 'Cormorant Garamond', arial, sans-serif;
+    font-family: 'Trajan Pro', 'Cormorant Garamond', arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.2em;
 }
@@ -1337,11 +1349,10 @@ a.bg-video-button-muted{
 .hs-line-14{
     margin-top: 0;
     position: relative;
-    font-size: 48px;
-    font-weight: 600;
+    font-size: 80px;
+    font-weight: 300;
     line-height: 1.4;
     text-transform: uppercase;
-    letter-spacing: 0.7em;
 }
 .hs-line-15{
     margin-top: 0;
