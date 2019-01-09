@@ -101,13 +101,23 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
     Custom
 ==========================*/
 .color-primary {
-    color: #CCC357 !important;
+    color: #F2564A !important;
 }
 .color-secondary {
-    color: #F0564A !important;
+    color: #12A550 !important;
 }
 .color-tertiary {
-    color: #61582F !important;
+    color: #2771BF !important;
+}
+
+.bg-primary {
+    background-color: #F2564A !important;
+}
+.bg-secondary {
+    background-color: #12A550 !important;
+}
+.bg-tertiary {
+    background-color: #2771BF !important;
 }
 
 /* ==============================
@@ -3145,7 +3155,7 @@ a.logo:hover{
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.1em;
 }
 .alt-features-descr {
     color: #777;
