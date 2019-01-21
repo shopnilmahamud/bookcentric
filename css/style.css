@@ -470,7 +470,7 @@ hr.black{
 }
 .font-alt{
     font-family: 'Noto Serif', sans-serif;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: 0.2em;
 }
 .serif{
@@ -1365,7 +1365,7 @@ a.bg-video-button-muted{
     font-size: 80px;
     font-weight: 300;
     line-height: 1.4;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 .hs-line-15{
     margin-top: 0;
@@ -3855,7 +3855,7 @@ a.logo:hover{
     margin-bottom: 22px;
     color: #777;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.75;
 }
 
