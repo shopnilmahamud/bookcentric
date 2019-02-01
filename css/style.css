@@ -121,6 +121,9 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
     background-color: #2771BF !important;
 }
 
+.mb-40 {
+    margin-bottom: 40px;
+}
 /* ==============================
    Common styles
    ============================== */
