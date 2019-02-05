@@ -7,6 +7,10 @@ Project:    BookCentric
 
 @import "font-awesome.min.css";
 @import "et-line.css";
+@font-face {
+    font-family: "FuturaPT";
+    src: url("../fonts/FuturaPTBold.otf") format("opentype");
+}
 
 /*@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400italic,700italic,400,300,700');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700');*/
@@ -389,14 +393,14 @@ img:not([draggable]), embed, object, video{
 body{
     color: #111;
     font-size: 22px;
-    font-family: 'Lora', sans-serif;
+    font-family: 'Futura PT','Lora', sans-serif;
     line-height: 1.6;    
     -webkit-font-smoothing: antialiased;
 }
 
 a{
-    color: #111;
-    text-decoration: underline;
+    color: #666;
+    text-decoration: none;
 }
 a:hover{
     color: #888;
@@ -473,12 +477,12 @@ hr.black{
     letter-spacing: 1px;
 }
 .font-alt{
-    font-family: 'Lora', sans-serif;
+    font-family: 'Futura PT','Lora', sans-serif;
     /*text-transform: uppercase;*/
     letter-spacing: 0.2em;
 }
 .serif{
-    font-family: 'Lora', sans-serif;
+    font-family: 'Futura PT','Lora', sans-serif;
     font-style: italic;
     font-weight: normal;
 }
@@ -1366,9 +1370,10 @@ a.bg-video-button-muted{
 .hs-line-14{
     margin-top: 0;
     position: relative;
-    font-size: 80px;
-    font-weight: 300;
+    font-size: 150px;
+    font-weight: 600;
     line-height: 1.4;
+    opacity: 0.7;
     /*text-transform: uppercase;*/
 }
 .hs-line-15{
@@ -1510,7 +1515,7 @@ a.bg-video-button-muted{
 }
 .logo,
 a.logo:hover{
-    font-family: 'Lora', sans-serif;
+    font-family: 'Futura PT','Lora', sans-serif;
     font-size: 18px;
     font-weight: 400 !important;
     text-transform: uppercase;
@@ -2448,7 +2453,7 @@ a.logo:hover{
     background-color: #f4f4f4;
 }
 .bg-gray-lighter{
-    background-color: #f8f8f8;
+    background-color: #efefef;
 }
 .bg-dark,
 .bg-dark-lighter,
@@ -2710,11 +2715,11 @@ a.logo:hover{
 
 .section-title {
     margin-bottom: 15px;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.3em;
     line-height: 1.4;
 }
 .section-more{
@@ -2756,7 +2761,7 @@ a.logo:hover{
     background: #111;
 }
 .section-text{
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 500;
     color: #555;
     line-height: 2;
@@ -3156,11 +3161,12 @@ a.logo:hover{
 }
 .alt-features-title{
     margin-bottom: 21px;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
+
 .alt-features-descr {
     color: #777;
     font-size: 18px;
@@ -3750,7 +3756,7 @@ a.logo:hover{
     background: none;
     border: none;
     text-align: center;
-    font-family: 'Lora', sans-serif;
+    font-family: 'Futura PT','Lora', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -4422,7 +4428,7 @@ a.blog-item-more:hover{
 
 .pagination{
     font-size: 13px;
-    font-family: 'Lora', sans-serif;
+    font-family: 'Futura PT','Lora', sans-serif;
 }
 .pagination a{
     display: inline-block;
@@ -4499,7 +4505,7 @@ a.blog-item-more:hover{
 .comment-item-data{
     margin: 0 0 5px;
     text-transform: uppercase;
-    font-family: 'Lora', sans-serif;
+    font-family: 'Futura PT','Lora', sans-serif;
     font-size: 12px;
     color: #777;
 }
