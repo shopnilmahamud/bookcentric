@@ -689,7 +689,7 @@ a.btn-mod:focus{
 .btn-mod.btn-medium{
     height: auto;
     padding: 8px 37px;
-    font-size: 12px;
+    font-size: 20px;
 } 
 .btn-mod.btn-large{
     height: auto;
@@ -2761,7 +2761,7 @@ a.logo:hover{
     background: #111;
 }
 .section-text{
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 500;
     color: #555;
     line-height: 2;
@@ -3723,7 +3723,7 @@ a.logo:hover{
 .banner-heading{
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 24px;
+    font-size: 50px;
     font-weight: 600;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -3732,7 +3732,7 @@ a.logo:hover{
 
 .banner-decription{
     margin-bottom: 35px;
-    font-size: 18px;    
+    font-size: 28px;    
     font-weight: 600;
     color: rgba(255,255,255, .7);
 }
@@ -3828,7 +3828,7 @@ a.logo:hover{
 }
 .post-prev-title{
     margin-bottom: 6px;
-    font-size: 15px;
+    font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 0.2em;
 }
@@ -3864,7 +3864,7 @@ a.logo:hover{
 .post-prev-text{
     margin-bottom: 22px;
     color: #777;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.75;
 }
