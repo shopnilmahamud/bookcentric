@@ -15,3 +15,9 @@
 .section-icon {
     color: gold;
 }
+
+.text-constant {
+    font-size: 9em;
+    color: #CD4E4E;
+    margin-bottom: 0;
+}
