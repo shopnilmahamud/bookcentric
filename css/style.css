@@ -11,11 +11,15 @@ Project:    BookCentric
     font-family: "Chloe";
     src: url("../fonts/Chloe-Regular.otf") format("opentype");
 }
-@import url('https://fonts.googleapis.com/css?family=Habibi:400,700');
+@font-face {
+    font-family: "Prata";
+    src: url("../fonts/Prata-Regular.ttf") format("truetype");
+}
+@import url('https://fonts.googleapis.com/css?family=Prata');
 
 /*@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400italic,700italic,400,300,700');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700');
-@import url('https://fonts.googleapis.com/css?family=Habibi:400,700');*/
+@import url('https://fonts.googleapis.com/css?family=Prata:400,700');*/
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -394,7 +398,7 @@ img:not([draggable]), embed, object, video{
 body{
     color: #111;
     font-size: 22px;
-    font-family: 'Habibi', sans-serif;
+    font-family: 'Prata', sans-serif;
     line-height: 1.6;    
     -webkit-font-smoothing: antialiased;
 }
@@ -1371,7 +1375,7 @@ a.bg-video-button-muted{
 .hs-line-14{
     margin-top: 0;
     position: relative;
-    font-size: 7em;
+    font-size: 6.5em;
     font-weight: 600;
     line-height: 1.4;
     /*opacity: 0.7;
@@ -2718,11 +2722,11 @@ a.logo:hover{
 .section-title {
     margin-bottom: 15px;
     font-family: 'Chloe', sans-serif;
-    font-size: 60px;
+    font-size: 85px;
     font-weight: 600;
     /*text-transform: uppercase;*/
     text-align: center;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.13em;
     line-height: 1.4;
     color: #CD4E4E;
 }
@@ -3760,7 +3764,7 @@ a.logo:hover{
     background: none;
     border: none;
     text-align: center;
-    font-family: 'Habibi', sans-serif;
+    font-family: 'Prata', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -3773,7 +3777,7 @@ a.logo:hover{
 .testimonial-author{
     font-size: 2em;
     color: cadetblue;
-    font-family: 'Habibi', sans-serif;
+    font-family: 'Prata', sans-serif;
 }
 .testimonial-author:before{
     content: no-close-quote;
@@ -4824,7 +4828,7 @@ table.shopping-cart-table tr td{
     
 }
 .pricing-num sup{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Prata', sans-serif;
     font-size: 18px;
     font-weight: 600;
     position: relative;
